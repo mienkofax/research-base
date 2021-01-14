@@ -1,4 +1,7 @@
 matplotlib==3.3.3
 numpy==1.19.5
-tensorflow-gpu==2.3.0
-tensorflow<3,>=2.3
+tensorboard==2.4.0
+tensorflow-estimator==2.4.0
+tensorflow-gpu==2.4.0
+tensorflow-serving-api-gpu==2.4.0
+tensorflow-serving-api==2.4.0
