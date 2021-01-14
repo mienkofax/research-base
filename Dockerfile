@@ -19,6 +19,8 @@ RUN apt-get update && apt-get install -y \
 # install R DGA - https://github.com/jayjacobs/dga
 ADD . /research-base/
 
+RUN pip3 install --no-cache-dir -r /research-base/requirements.txt
+
 WORKDIR /research-base/
 RUN ./install.sh
 
