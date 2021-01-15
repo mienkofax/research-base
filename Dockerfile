@@ -24,3 +24,5 @@ RUN pip3 install --upgrade pip && \
 
 WORKDIR /research-base/
 RUN ./install.sh
+
+ENTRYPOINT ["bash", "/research-base/entrypoint.sh"]
